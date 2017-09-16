@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #EEEEEE;
+}
+
+nav {
+    width: 100vw;
+}
+
+#messages {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin: 1em 0;
+    padding: 0 2em;
+}
+
+.modal .input-field {
+    margin-top: 3em;
+}
+
+.card {
+    margin-top: 1em;
+}
