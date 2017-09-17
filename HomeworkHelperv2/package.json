@@ -7,11 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "latest",
+    "cors": "^2.8.4",
     "express": "latest",
-    "pg": "latest",
+    "pg": "7.3.0",
     "socket.io": "latest"
   },
   "scripts": {
-    "start": "PGDATABASE=postgres PGUSER=postgres PGHOST=128.210.106.65 PGPASSWORD=Bouquet2007 PGPORT=5432 node index.js"
+    "start": "PGDATABASE=d1fh9mu9ubk340 PGUSER=fskxuwlapijkqn PGHOST='ec2-107-20-255-96.compute-1.amazonaws.com' PGPASSWORD=42c90b3eaad0ef15e0360094b4e5c94b9864d0872784c5ecbd96cff105e5f0e4 PGPORT=5432 node index.js"
   }
 }
