@@ -1,0 +1,17 @@
+{
+  "name": "Physics-Pal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:prahladanand17/HomeworkHelper",
+  "author": "Anand, Prahlad <anand39@purdue.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "pg": "latest",
+    "socket.io": "latest"
+  },
+  "scripts": {
+    "start": "PGDATABASE=postgres PGUSER=postgres PGHOST=128.210.106.65 PGPASSWORD=Bouquet2007 PGPORT=5432 node index.js"
+  }
+}
